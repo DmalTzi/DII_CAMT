@@ -52,7 +52,7 @@ section {
     display: flex;
 }
 
-/* side bar */
+/* side bar product*/
 .side-nav-bar {
     background-color: var(--gray);
     width: 20%;
@@ -69,6 +69,11 @@ section {
     text-decoration: none;
     color: black;
 }
+
+.lside-sub-nav-bar {
+    margin-left: 2rem;
+}
+
 /* main content */
 .main-content {
     margin-top: 2rem;
@@ -212,6 +217,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
     height: 6rem;
     background-color: var(--darkgray);
     width: 100vw;
