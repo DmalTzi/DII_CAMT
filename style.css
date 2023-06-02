@@ -1,0 +1,97 @@
+:root {
+    --white : #EEDDEE;
+    --blue : #485696;
+    --orange : #FC814A;
+    --gray : #D9D9D9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto mono', monospace;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* naviation bar */
+.nav-bar {
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--blue);
+}
+
+.nav-bar h1 a {
+    color: orange;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.nav-bar-sub {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-sub li {
+    list-style: none;
+    margin-right: 4rem;
+}
+
+.nav-bar-sub li a {
+    text-decoration: none;
+    color: var(--orange);
+}
+
+
+/* section */
+section {
+    display: flex;
+}
+
+/* side bar */
+.side-nav-bar {
+    background-color: var(--gray);
+    width: 20%;
+    height: 100%;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.lside-nav-bar li {
+    list-style: none;
+}
+
+.lside-nav-bar li a {
+    text-decoration: none;
+    color: black;
+}
+/* main content */
+.main-content {
+    margin-top: 2rem;
+}
+
+/* Table product */
+
+.table-content {
+    border-collapse: separate;
+    border-spacing: 2px 30px;
+}
+
+.table-content .head-row th {
+    background-color: var(--gray);
+    width: 300px;
+    padding: 5px;
+}
+
+.sub-row {
+    background-color: var(--gray);
+    width: 300px;
+    padding: 5px;
+}
+
+.long {
+    height: 1000px;
+}
